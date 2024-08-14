@@ -55,6 +55,12 @@ Contributions to this project are not welcomed at this time. Please, `Fork` the 
 
 This project is open-source and not licensed.
 
+___
+#### Markdown
+
+This README.md file was generated with the assistance of [StackEdit](https://stackedit.io/app#).
+___
+
 ## Contact
 
 For any inquiries or support, please reach out via email at NGenSoftwareSolutions@gmail.com.
