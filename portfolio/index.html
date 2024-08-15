@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
+        <!-- ===== Setup ===== -->
         <meta charset = "UTF-8">
         <meta http-equiv = "X-UA-Compatible" content="IE=edge">
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
         <title>Document</title>
         <!-- ===== CSS Files ===== -->
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/skins/color-1.css">
+        <link rel="stylesheet" href="css/skins/color-5.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <!-- ===== Style Switcher ===== -->
+        <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+        <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+        <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+        <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+        <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+        <link rel="stylesheet" href="css/style-switcher.css">
     </head>
     <body>
         <!-- ===== Main Container Start ===== -->
@@ -20,30 +28,30 @@
                 </div>
                 <div class="nav-toggler">
                     <span>
-
                     </span>
                 </div>
                 <ul class="nav">
                     <li><a href="#" class="active"><i class="fa fa-home"></i> Home</a></li>
                     <li><a href="#"><i class="fa fa-user"></i> About</a></li>
                     <li><a href="#"><i class="fa fa-list"></i> Services</a></li>
-                    <li><a href="#"><i class="fa fa-briefcase"></i> Portfolio</a></li>
-                    <li><a href="#"><i class="fa fa-comments"></i> Contact</a></li>
+                    <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                    <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
                 </ul>
             </div>
             <!-- ===== Aside End ===== -->
             <!-- ===== Main Content Start ===== -->
             <div class="main-content">
                 <!-- ===== Home Section Start ===== -->
-                <section class="home section hidden">
+                <section class="home section">
                     <div class="container">
                         <div class="row">
                             <div class="home-info">
-                                <h3 class="hello">Hello, my name is <span class="name">NGenSoftware</span></h3>
-                                <h3 class="my-profession">I'm a <span class="typing">Software Engineer</span></h3>
-                                <p> I'm a Software Engineer with a professional background of over 10 years. My expertise is putting customer's dreams and problems
-                                    into beautiful and resilient solutions. I can program backend to frontend to customize products for your specific needs. Everything
-                                    that you see on this website has been coded from scratch and is completely customizable. 
+                                <h3 class="my-profession">Hello, my name is <span class="typing">Neil Sands</span></h3>
+                                <h3 class="my-profession"><span class="typing">Software Engineer</span></h3>
+                                <h3 class="my-profession"><span class="typing">US Veteran</span></h3>
+                                <p> I'm a Software Engineer with a professional working background of over 10 years. My expertise is solving customer's problems and
+                                    transforming them into beautiful and resilient solutions. I can program backend to frontend to customize products for your 
+                                    specific needs. Everything that you see on this website has been coded from scratch and is completely customizable. 
                                 </p>
                                 <a href="#contact" class="btn hire-me">Hire Me</a>
                             </div>
@@ -55,27 +63,31 @@
                 </section>
                 <!-- ===== Home Section End ===== -->
                 <!-- ===== About Section Start ===== -->
-                <section class="about section hidden">
+                <section class="about section">
                     <div class="container">
                         <div class="row">
-                            <div class="section-title">
+                            <div class="section-title padd-15">
                                 <h2>About Me</h2>
                             </div>
+                        </div>
                         <div class="row">
                             <div class="about-content"> 
                                 <div class="row">
                                     <div class="about-text padd-25">
-                                        <h3>Hi! My name is NGenSoftware and I'm a <span> Software Engineer: </span></h3>
-                                    <p> Here is text describing the About Me section that is to be filled in later. 
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita distinctio corporis quae porro ut unde pariatur labore rem ullam consectetur ratione excepturi, sequi eos doloremque eligendi perspiciatis magnam, laudantium doloribus?
-                                    </p></div>
+                                        <h3>Hi! My name is Neil Sands and I'm a <span> Software Engineer: </span></h3>
+                                        <p> I'm a Software Engineer with a professional working background of over 10 years. My expertise is solving customer's problems and
+                                            transforming them into beautiful and resilient solutions. I can program backend to frontend to customize products for your 
+                                            specific needs. Everything that you see on this website has been coded from scratch and is completely customizable. This is a small
+                                            example of my understanding of HTML, JS, and CSS. Thank you for your time and consideration in hiring me.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="personal-info padd-25">
+                                    <div class="personal-info padd-15">
                                         Personal Info:
                                         <div class="row">
                                             <div class="info-item">
-                                                <p>Business: <span> <div class="info-item padd-15"> NextGenSoftwareSolutions LLC </div> </span></p>
+                                                <p>Business: <span> <div class="info-item padd-15"> NextGenSoftwareSolutionsLLC </div> </span></p>
                                             </div>
                                             <div class="info-item">
                                                 <p>Website: <span> <div class="info-item padd-15"> http://ngensoftwaresolutionsllc.com/ </div> </span></p>
@@ -87,26 +99,39 @@
                                                 <p>Phone: <span><div class="info-item padd-15"> (111) 222-3333</div> </span></p>
                                             </div>
                                             <div class="info-item">
-                                                <p>Education: <span> <div class="info-item padd-15"> Arizona State University </div> <div class="info-item padd-15"> B.S. - Software Engineering </div> <div class="info-item padd-15"> Minor - Environmental Sustainability Sciences </div> </span></p>
+                                                <p>Education: <span> <div class="info-item padd-15"> Arizona State University </div>
+                                                     <div class="info-item padd-15"> B.S. - Software Engineering </div> 
+                                                     <div class="info-item padd-15"> Minor - Environmental Sustainability Sciences </div> </span></p>
                                             </div>
                                             <div class="info-item">
-                                                <p>Courses: <span> <div class="info-item-next padd-15"> Software Enterprise I, II, III, & IV </div> <div class="info-item padd-15"> Distributed Systems Fundamentals </div> <div class="info-item padd-15"> Secure Systems Fundamentals </div> <div class="info-item padd-15"> Human Computer Interactions </div> <div class="info-item padd-15"> Microprocessor Architecture </div> <div class="info-item padd-15"> Operating Systems Fundamentals </div> <div class="info-item padd-15"> Database Management Fundamentals </div> <div class="info-item padd-15"> Engineering Statistics & Data Modeling </div> <div class="info-item padd-15"> Applied Linear Algebra </div> <div class="info-item padd-15"> Discrete Mathematics </div> </span> </p>
+                                                <p>Courses: <span> <div class="info-item-next padd-15"> Software Enterprise I, II, III, & IV </div> 
+                                                    <div class="info-item padd-15"> Distributed Systems Fundamentals </div> 
+                                                    <div class="info-item padd-15"> Secure Systems Fundamentals </div> 
+                                                    <div class="info-item padd-15"> Human Computer Interactions </div> 
+                                                    <div class="info-item padd-15"> Microprocessor Architecture </div> 
+                                                    <div class="info-item padd-15"> Operating Systems Fundamentals </div> 
+                                                    <div class="info-item padd-15"> Database Management Fundamentals </div> 
+                                                    <div class="info-item padd-15"> Engineering Statistics & Data Modeling </div> 
+                                                    <div class="info-item padd-15"> Applied Linear Algebra </div> 
+                                                    <div class="info-item padd-15"> Discrete Mathematics </div> </span> </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="personal-info padd-25">
+                                    <div class="personal-info padd-15">
                                         Skills:
                                         <div class="row">
                                             <div class="info-item"> 
                                                 <p>Programming Languages & Scrippting Languages</p>
                                                 <p>Confidence Level (Mastery 100%):</p> 
                                                 <span> <div class="info-item padd-15"> 
-                                                    <p>C</p> <div class="container_for_skill_bar"> <div class="C">70%</div></div>  
+                                                    <p></p> <div class="container_for_skill_bar padd-15"> 
+                                                    <div class="info-item"></div></div>
+                                                    <div class="info-item"> <p>C</p> <div class="container_for_skill_bar"> <div class="C">70%</div></div></div>  
                                                     <div class="info-item"> <p>C++</p> <div class="container_for_skill_bar"> <div class="CPLUSPLUS">75%</div></div></div>   
                                                     <div class="info-item"> <p>JAVA</p> <div class="container_for_skill_bar"> <div class="JAVA">80%</div></div></div>   
                                                     <div class="info-item"> <p>HTML, CSS, JavaScript</p> <div class="container_for_skill_bar"> <div class="HTMLCSSJS">70%</div></div></div>
                                                     <div class="info-item"> <p>PYTHON</p> <div class="container_for_skill_bar"> <div class="PYTHON">80%</div></div></div>
-                                                    <div class="info-item"> <p>PHP</p> <div class="container_for_skill_bar"> <div class="PHP">65%</div></div></div>
+                                                    <div class="info-item"> <p>PHP</p> <div class="container_for_skill_bar"> <div class="PHP">50%</div></div></div>
                                                     <div class="info-item"> <p>SQL</p> <div class="container_for_skill_bar"> <div class="SQL">65%</div></div></div>
                                                 </div></span>
                                             </div>
@@ -118,36 +143,35 @@
                         <div class="row">
                             <div class="about-content">
                                 <div class="row">
-                                    <div class="personal-info padd-25">Certifications:
+                                    <div class="personal-info-cert">Certifications:
                                         <div class="row"> 
-                                            <div class="info-item">
-                                                <p>Completed Courses:<span>  <div class="info-item-next padd-15">Course #1 </div> </span> </p></div>
-                                            <div class="info-item">
-                                                <p>In Progress Courses:<span> <div class="info-item-next padd-15">Course #2 </div> </span> <div class="info-item-next"></div>
+                                            <div class="cert-info-item">
+                                                <p>Completed Courses:<span>  <div class="info-item-next padd-15">Course #1 </div> </span> </p>
+                                            </div>
+                                            <div class="cert-info-item">
+                                                <p>In Progress Courses:<span> <div class="info-item-next padd-15">C++ Programming with Unreal Engine </div> </span> <div class="info-item-next"></div>
                                                 <div class="info-item-next padd-15"> Course #3 </div>
-                                                <div class="info-item-next padd-15"> Course #4</div> </span> </p> </div>
-                                        </div>
-                                    </div>
-                                    <div class="personal-info padd-25">Projects:
-                                        <div class="row">
-                                            <div class="info-item padd-15"><a href="http://cookful.ca/">Cookful - Senior Project</a></div>
-                                            <div class="info-item padd-15"><a href="https://github.com/nsands1/Code-A-Mon-Assignment">Code-A-Mon - Design Patterns Assignment</a>
+                                                <div class="info-item-next padd-15"> Course #4</div> </span> </p> 
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="buttons">
-                                    <div class="row"><a href="#" class="btn">Download Resume</a><div class="padd-30"></div><a href="#contact" class="btn hire-me">Hire Me</a></div>
+                            <div class="about-content-button">
+                                <div class="row">
+                                    <div class="padd-30"></div><div class="padd-30"></div>
+                                    <div class="padd-30"></div><div class="padd-30"></div>
+                                    <a href="#" class="about-btn">Download Resume</a>
+                                    <div class="padd-30"></div><div class="padd-30"></div>
+                                    <a href="#contact" class="about-btn hire-me">Hire Me</a>
                                 </div>
                             </div>
-                        </div>
                         </div>
                     </div>
                 </section>
                 <!-- ===== About Section End ===== -->
                 <!-- ===== Services Section Start ===== -->
-                <section class="service section hidden">
+                <section class="service section">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -159,10 +183,10 @@
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="icon">
-                                        <i class="fa fa-mobile-alt"></i>
+                                        <i class="fa fa-bullhorn"></i>
                                     </div>
                                     <h4>Web Design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus architecto dicta?</p>
+                                    <p>Do you own a business? Need a way for customers to see what you offer? I can design a responsive and customizable website to your exact liking.</p>
                                 </div>
                             </div>
                             <!-- ====== Service Item End ===== -->
@@ -170,10 +194,10 @@
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="icon">
-                                        <i class="fa fa-laptop-code"></i>
+                                        <i class="fa fa-tasks"></i>
                                     </div>
-                                    <h4>Web Design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus architecto dicta?</p>
+                                    <h4>Software Planning</h4>
+                                    <p>From UML diagrams, Sprint Planning, Requirements, to GitHub Repositories Setup, I can help you plan your next software application.</p>
                                 </div>
                             </div>   
                             <!-- ====== Service Item End ===== -->
@@ -181,10 +205,10 @@
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="icon">
-                                        <i class="fa fa-palette"></i>
+                                        <i class="fa fa-laptop-code"></i>
                                     </div>
-                                    <h4>Web Design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus architecto dicta?</p>
+                                    <h4>AWS Instance Install</h4>
+                                    <p>Need a remote server to hold your data or to run your programs off of? I can build you an AWS Instance saving you the time and hassle.</p>
                                 </div>
                             </div>                         
                             <!-- ====== Service Item End ===== -->
@@ -192,10 +216,10 @@
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="icon">
-                                        <i class="fa fa-code"></i>
+                                        <i class="fa fa-bug"></i>
                                     </div>
-                                    <h4>Web Design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus architecto dicta?</p>
+                                    <h4>Code Reviews & Debugging</h4>
+                                    <p>Bug in your code that can't be found or fixed? Need a second pair of eyes for formatting, time complexity, and space improvements? Click here! </p>
                                 </div>
                             </div>                         
                             <!-- ====== Service Item End ===== -->
@@ -203,10 +227,10 @@
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="icon">
-                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-gamepad"></i>
                                     </div>
-                                    <h4>Web Design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus architecto dicta?</p>
+                                    <h4>Game Design</h4>
+                                    <p>Have an idea for a simple game but not sure how to code it? Need improvements or ideas to start? I can help.</p>
                                 </div>
                             </div>                         
                             <!-- ====== Service Item End ===== -->
@@ -214,10 +238,10 @@
                             <div class="service-item padd-15">
                                 <div class="service-item-inner">
                                     <div class="icon">
-                                        <i class="fa fa-bullhorn"></i>
+                                        <i class="fa fa-database"></i>
                                     </div>
-                                    <h4>Web Design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus architecto dicta?</p>
+                                    <h4>Database Setup</h4>
+                                    <p>Large or Small Datasets? No problem. I can help setup a database and provide sample querries for you to get access to your data.</p>
                                 </div>
                             </div>                         
                             <!-- ====== Service Item End ===== -->
@@ -243,7 +267,9 @@
                             <div class="portfolio-item padd-15">
                                 <div class="portfolio-item-inner shadow-dark">
                                     <div class="portfolio-img">
-                                        <img src="images/portfolio/Battleship.png" alt="">
+                                        <a href="https://github.com/nsands1/Games/tree/main/BattleshipGame">
+                                            <img src="images/portfolio/Battleship.png" alt="Battleship">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -252,7 +278,9 @@
                             <div class="portfolio-item padd-15">
                                 <div class="portfolio-item-inner shadow-dark">
                                     <div class="portfolio-img">
-                                        <img src="images/portfolio/Code-A-Mon.png" alt="">
+                                        <a href="https://github.com/nsands1/Games/tree/main/Code-A-Mon_Battle_Simulator">
+                                            <img src="images/portfolio/Code-A-Mon.png" alt="Code-A-Mon">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -261,7 +289,9 @@
                             <div class="portfolio-item padd-15">
                                 <div class="portfolio-item-inner shadow-dark">
                                     <div class="portfolio-img">
-                                        <img src="images/portfolio/Snake.png" alt="">
+                                        <a href="https://github.com/nsands1/Games/tree/main/Snake/src">
+                                            <img src="images/portfolio/Snake.png" alt="Snake">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -270,7 +300,9 @@
                             <div class="portfolio-item padd-15">
                                 <div class="portfolio-item-inner shadow-dark">
                                     <div class="portfolio-img">
-                                        <img src="images/portfolio/RMG.png" alt="">
+                                        <a href="https://github.com/nsands1/Games/tree/main/RandomMazeGenerator">
+                                            <img src="images/portfolio/RMG.png" alt="Random Maze Generator">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -279,7 +311,9 @@
                             <div class="portfolio-item padd-15">
                                 <div class="portfolio-item-inner shadow-dark">
                                     <div class="portfolio-img">
-                                        <img src="images/portfolio/TTT.png" alt="">
+                                        <a href="https://github.com/nsands1/Games/tree/main/TicTacToe_Server_Client">
+                                            <img src="images/portfolio/TTT.png" alt="TicTacToe_Server_Client">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -288,7 +322,9 @@
                             <div class="portfolio-item padd-15">
                                 <div class="portfolio-item-inner shadow-dark">
                                     <div class="portfolio-img">
-                                        <img src="images/portfolio/Cookful.PNG" alt="">
+                                        <a href ="http://cookful.ca/">
+                                            <img src="images/portfolio/Cookful.PNG" alt="Cookful.ca">
+                                        </a>
                                         <!-- Link to Cookful.ca (http://cookful.ca/) -->
                                     </div>
                                 </div>
@@ -299,13 +335,109 @@
                 </section>
                 <!-- ===== Portfolio Section End ===== -->
                 <!-- ===== Contact Section Start ===== -->
+                <section class="contact section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>Contact Me</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- ===== Contact Info Item Start ===== -->
+                            <div class="contact-info-item padd-25">
+                                <div class="icon"><i class="fa fa-phone"></i></div>
+                                <h4>Call or Text:</h4>
+                                <p>+1 (111) 222-3333</p>
+                            </div>
+                            <!-- ===== Contact Info Item End ===== -->
+                            <!-- ===== Contact Info Item Start ===== -->
+                            <div class="contact-info-item padd-25">
+                                <div class="icon"><i class="fa fa-envelope"></i></div>
+                                <h4>E-mail:</h4>
+                                <p>NGenSoftwareSolutions@gmail.com</p>
+                                <p>nsands1@asu.edu</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- ===== Contact Info Item End ===== -->
+                            <!-- ===== Contact Info Item Start ===== -->
+                            <div class="contact-info-item padd-25">
+                                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                                <h4>Location:</h4>
+                                <p>Goodyear, AZ</p>
+                                <p>Pheonix, AZ</p>
+                            </div>
+                            <!-- ===== Contact Info Item End ===== -->
+                            <!-- ===== Contact Info Item Start ===== -->
+                            <div class="contact-info-item padd-25">
+                                <div class="icon"><i class="fa fa-globe"></i></div>
+                                <h4>LinkedIn:</h4>
+                                <p><a href="https://www.linkedin.com/in/neil-sands-466455203">My Profile</a></p>
+                                <h4>GitHub:</h4>
+                                <p><a href="https://github.com/nsands1">My Repositories</a></p>
+                            </div>
+                            <!-- ===== Contact Info Item End ===== -->
+                        </div>
+                        <div class="row">
+                            <div class="contact-form padd-25">
+                                <div class="row">
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Subject">
+                                        </div>
+                                    </div>
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-item col-6 padd-30">
+                                        <div class="form-group">
+                                            <button type="submit" class="btn">Send Message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <!-- ===== Contact Section End ===== -->
             </div>
             <!-- ===== Main Content End ===== -->
         </div>
         <!-- ===== Main Container End ===== -->
+        <!-- ===== Style Switcher Start ===== -->
+         <div class="style-switcher">
+            <div class="style-switcher-toggler s-icon">
+                <i class="fas fa-cog fa-spin"></i>
+            </div> 
+            <h4>Theme Colors <i class="fas fa-palette fa-spin"></i> </h4>
+            <div class="row"></div>          
+            <div class="day-night s-icon">
+                <i class="fas fa-moon fa-spin"></i>
+            </div>
+            <div class="colors">
+                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            </div>
+         </div>
+        <!-- ===== Style Switcher End ===== -->
         <!-- ===== JS Files ===== -->
          <script src="js/script.js"></script>
+         <script src="js/style-switcher.js"></script>
     </body>
 </html>
 
